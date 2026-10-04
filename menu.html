@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Viva's Cafe</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Viva's <span>Cafe</span></a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact & Reserve</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Our Menu</h1>
+        <p>Handcrafted beverages and delicious bites made with fresh, quality ingredients.</p>
+    </header>
+
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="all">All Items</button>
+                <button class="tab-btn" data-category="coffee">Coffee & Brews</button>
+                <button class="tab-btn" data-category="bakery">Fresh Bakery</button>
+                <button class="tab-btn" data-category="breakfast">Breakfast & Lunch</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Dynamically populated via JS -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Viva's Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/menu-data.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
