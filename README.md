@@ -19,8 +19,3 @@ vivas-cafe/
 └── README.md
 ```
 
-## 🚀 Getting Started
-
-1. Extract the `vivas-cafe.zip` file.
-2. Open `index.html` in any modern web browser.
-3. No server or build tools required!
